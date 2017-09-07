@@ -1,0 +1,486 @@
+html, body{
+    height:;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: verdana ;
+    background-image: url(img/16.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+}
+
+.nav {
+	color: #fff;
+	list-style: none;
+	text-align: right;
+	padding: 20px 0 20px 0;
+}
+
+.nav > li {
+	display: inline-block;
+	padding-right: 50px;
+	font-size: 12px;
+	font-weight: 600;
+	font-family:sans-serif;
+}
+.nav > li > a {
+	text-decoration: none;
+	color: #fff;
+    font-family: verdana;
+
+}
+.nav > li > a:hover{
+	color: #db7c00;
+}
+
+.logo {
+	font-family: arial;
+	color: #fff;
+	float: left;
+	padding-left: 25px;
+	font-size: 14px;
+	font-weight: bold ; 
+	letter-spacing: .7px;
+}
+
+.logo > a {
+	text-decoration: none;
+	color: #fff;
+
+}
+.logo > a:hover {
+	text-decoration: none;
+	color:#db7c00;
+
+};
+
+}
+
+
+.banner1 {
+	width: 100%;
+	display: block;
+}
+
+.banner1 > .banner-image1 {
+	width: 100%;
+	display: block;
+	opacity: .75;
+	
+}
+
+.banner2 {
+	width: 90%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.banner2 > .banner-image2  {
+	width: 90%;
+	display: block;
+	opacity: .75;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+.banner2 > .banner-image3 {
+	width: 90%;
+	display: block;
+	opacity: .75;
+	margin-left: auto;
+	margin-right: auto;
+}
+	
+.text1 {
+	font-family: sans-serif;
+	font-size: 12px;
+	letter-spacing: 1px;
+	text-align: center;
+    color: #fff;
+	top: 50%;
+    left: 50%;
+    margin-left: -50px; /* margin is -0.5 * dimension */
+    margin-top: -25px; 
+
+
+	
+}
+.welcome {
+	letter-spacing: 1px;
+	font-family: arial;
+	font-size: 44px;
+	text-align: center;
+    color: white;
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -50px; /* margin is -0.5 * dimension */
+    margin-top: -25px; 
+}​
+}
+#white{
+	height: 400px;
+	width: 100%;
+	background-color: white;
+	background-size: cover;
+	display: table;
+	background-attachment: fixed;
+}
+
+.aboutme{
+	font-family: arial;
+	font-size: 30px;
+	letter-spacing: 2px;
+	text-align: center;
+	padding-bottom: 20px;
+	color: #fff;
+	
+}
+
+.aboutme1{
+	font-size: 24px;
+	font-family: verdana;
+	text-align:center;
+	letter-spacing: 4px;
+	padding: 20px;
+	
+}
+.aboutme2{
+	font-size: 20px;
+	font-family: verdana;
+	text-align: center;
+	letter-spacing: 2px;
+	padding: 20px;
+	
+}
+
+
+
+
+
+/* Gallery*/
+
+
+div.gallery {
+	padding: 20px;
+	;
+}
+
+div > .gallery:hover {
+	opacity: .8;
+	color: #cfcfcf;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+div.desc {
+	font-size: 12px;
+    padding: 5px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+	float: auto;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px){
+    .responsive {
+        width: 49.99999%;
+        
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+
+
+
+
+
+/* Contact Me */
+
+input[type=text], select, textarea {
+	font-family: verdana;
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 0px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 25px; /* Add a top margin */
+    margin-bottom: 25px; /* Bottom margin */
+   /* resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+	font-family: verdana;
+	font-size: 16px;
+    background-color: #ffffff;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+	float: center;
+
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+	text-decoration: bold;
+    background-color: #cfcfcf;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	width: 40%;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+
+/* Audio on Interest page */
+
+#animated-gif-container {
+
+  width:700px;
+  height:250px;    
+  position: relative;
+  background-color: fff;
+  color: black;
+  float: center;
+  opacity: .30;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background: url(https://www.shaa.com/wp-content/uploads/2014/02/Equalizer_03.gif) no-repeat center center; 
+
+  
+}
+
+
+audio { 
+   display:none;
+}
+
+
+/* social bars */
+
+.social {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-top: 700px;
+    text-align: center;
+}
+.social li{
+    list-style: none;
+    display: inline-block;
+  
+}
+	
+.social li a{
+    width: 80px;
+    height: 80px;
+    font-size: 30px;
+    margin: 0 10px;
+    display: block;
+    border-radius; 50%;
+    color: white;
+}
+.social li a{
+    position: relative;
+    color: white;
+    transition: 1.7s;
+}
+.social li a:hover {
+    transform: rotateY(360deg);
+}
+
+
+/*down */
+
+.down {
+    display: flex;
+    position: absolute;
+    top: 96%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+	
+}
+.down li{
+    list-style: none;
+    display: inline-block;
+  
+}
+	
+.down li a{
+    width: 80px;
+    height: 80px;
+    font-size: 32px;
+    margin: 0 10px;
+    display: block;
+    border-radius; 50%;
+    color: white;
+}
+
+.down li a{
+    position: relative;
+    color: white;
+    transition: 2.4s;
+}
+.down li a:hover {
+    transform: rotateY(360deg);
+}
+
+
+/* About Me */
+
+
+.about {
+    display: flex;
+    position: absolute;
+    top: 109%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+	
+}
+.about li{
+    list-style: none;
+    display: inline-block;
+  
+}
+	
+.about li a{
+    width: 80px;
+    height: 80px;
+    font-size: 92px;
+    margin: 0 120px;
+    display: block;
+    border-radius; 50%;
+    color: white;
+}
+
+.about li a h1{
+    width: 300px;
+    font-size: 12px;
+    margin: 20px -90px;
+    color: white;
+	font-family:sans-serif;
+	line-height:150%;
+	letter-spacing:.25px;
+	cursor: default;
+	
+
+}
+/*leftside */
+td.icon {
+    display: column-reverse;
+    position: absolute;
+    top: 40%;
+    left: 100%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+td.icon {
+    list-style: none;
+	 display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+	
+  
+}
+td.icon{
+    width: 80px;
+    height: 80px;
+    font-size: 110px;
+    margin: 30px 0px;
+    display: block;
+    border-radius; 50%;
+	color: white;
+}
+td.icon {
+    position: relative;
+    color: white;
+    transition: .7s;
+}
+td.icon:hover {
+    transform: translate(30px);
+	color: lightgrey;
+}
+
+
+/*rightside */
+.rightside {
+    display: column-reverse;
+    position: absolute;
+    top: 23%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.rightside li{
+    list-style: none;
+	display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+	
+}
+.rightside li p{
+    width: 1000px;
+    height: 80px;
+    font-size: 12px;
+    margin: 100px 0px;
+    display: block;
+    border-radius; 50%;
+	cursor:default;
+	color: white;
+}
+
+button {
+
+    background: none;
+    border: none !important;
+    font-size:0;
+}
+
